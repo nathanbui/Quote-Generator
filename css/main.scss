@@ -1,0 +1,70 @@
+@import "base/_reset";
+@import "base/normalise";
+
+body {
+  background-image:url(http://i.imgur.com/a6ZCVFp.png);
+  font-family: 'vollkorn', serif;
+}
+
+.main {
+  margin: 50px auto 0 auto;
+  width: 600px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #2A7FB8;
+}
+
+h1 {
+  font-family: 'Vollkorn', serif;
+  text-shadow: 2px 2px 3px #888;
+  color: #333;
+  text-align: center;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+
+button {
+  background-color: #2a7fb8;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  text-align: centre;
+  display: inline-block;
+  text-shadow: 0 1px #777;
+  font-size: 1.2em;
+}
+
+.quote-container {
+  background-color: #FFF;
+  padding: 15px 20px;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.quote {
+  font-family: 'vollkorn', serif;
+  font-style: italic;
+  font-size: 20px;
+  text-indent: -6px;
+  color: #333;
+  line-height: 1.4;
+}
+
+.quote-author {
+  color: #C90707;
+  text-transform: uppercase;
+  font-family: 'vollkorn', serif;
+  font-weight: normal;
+  margin-top: 10px;
+}
